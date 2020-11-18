@@ -1,0 +1,49 @@
+<html>
+<head>
+<title>Login and Registration Form Design</title>
+     <link rel="stylesheet" href="style1.css">
+	 
+     
+</head>
+<body>
+  <div class="login-page">
+  <div class="form">
+      <form class="register-form">
+	   <h2>User Registration</h2> 
+				 <input type="text" placeholder="First Name"/>
+			     <input type="text" placeholder="Last Name"/>
+				 <input type="email" placeholder="Email Address"/>
+				 <input type="address" placeholder="Address"/>
+				 <button>Cancel</button>
+				 <a href="file:///C:/Users/amash/Downloads/todolist-main/index.html#"><button type="button" class="button">Submit</button></a>
+			    
+				     
+				 <p class="message">Already Registered?<a href="#"> Login</a>
+				 </p>
+				 </form>
+				 
+				 <form class="login-form">
+				    <h3> User Login</h3>
+				         <input type="email" placeholder="Email Address"/>
+				         <input type="password" placeholder="Password"/>
+				         <button>login</button>
+						 <div class="register_link">
+				         <p class="message">Not yet Registered? <a href="#">Register</a></p>
+						 </form>
+				         </div>
+						 </div>
+								 
+                                              									
+				         <script src='https://code.jquery.com/jquery-3.2.1.min.js'>
+				         </script>
+				 
+				         <script>
+				         $('.message a').click(function(){
+				         $('form').animate({height:"toggle", opacity: "toggle"},"slow");
+				         });
+				 
+				         </script>
+						 
+						 
+</body>				     
+</html>
