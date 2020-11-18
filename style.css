@@ -1,24 +1,24 @@
-h1{
+h1 {
     text-align: right;
-	font-family: Cooper;
-	color: #000080;
+    font-family: Cooper;
+    color: #000080;
     margin-top: 10px;
 }
 
 
-.form{
+.form {
     max-width: 75%;
     margin: auto;
-	
+
 }
 
-.table{
+.table {
     max-width: 75%;
     margin: 30px auto;
-	background-color: #ADD8E6;
+    background-color: #ADD8E6;
 }
 
-.logo img{
+.logo img {
     height: 45px;
     width: 43px;
     margin-right: 30px;
